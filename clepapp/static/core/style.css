@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; margin: 0; color: #222; line-height: 1.6; }
+nav { background: #1b5e20; padding: 14px 24px; }
+nav a { color: white; margin-right: 18px; text-decoration: none; font-weight: bold; }
+nav a:hover { text-decoration: underline; }
+.hero { background: #e8f5e9; padding: 60px 24px; text-align: center; }
+.hero h1 { color: #1b5e20; margin: 0 0 10px; }
+main { max-width: 900px; margin: 0 auto; padding: 30px 24px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 16px; }
+.card { border: 1px solid #c8e6c9; border-radius: 8px; padding: 16px; background: #fafffa; }
+footer { background: #1b5e20; color: white; text-align: center; padding: 14px; margin-top: 40px; }
